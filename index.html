@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aidan's Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+    <body>
+        <main>
+            <h1>Aidan Loggenberg's Website</h1>
+            
+            <h2>Bio Summary</h2>
+            <section class="intro">
+                <p>Aidan does not know how to code, he never learned. This is his first attempt at resolving said issue. I'm currently finishing up on day 4, and I'm content with the progress I've made thus far. I have to continue on with this filler in order to see if this flex-wrap code even works.</p>
+            </section>
+            
+            <h2>Favorite Sites</h2>
+              <div class="favorite-sites">
+                <div class="site">
+                  <a href="https://www.reddit.com" target="_blank"><img src="https://www.reddit.com/favicon.ico" alt="Reddit Logo"></a>
+                  <span>Reddit</span>
+                </div>
+                <div class="site">
+                    <a href="https://www.nytimes.com" target="_blank"><img src="https://www.nytimes.com/favicon.ico" alt="New York Times Logo"></a>
+                    <span>New York Times</span>
+                </div>
+                <div class="site">
+                    <a href="https://www.nytimes.com/athletic" target="_blank"><img src="https://www.nytimes.com/athletic/favicon.ico" alt="The Athletic Logo"></a>
+                    <span>The Athletic</span>
+                </div>
+              </div>            
+              <p>
+                <a href="https://www.reddit.com" target="_blank">Reddit</a> is Aidan's most frequently visited site.
+              </p>
+            
+            <h2>Two-Column Layout</h2>
+            <div class="two-column">
+                <div class="main-column">
+                    <p>This is the main content area. Unfortunately, I don't have any main or side content at the moment. Stay tuned.</p>
+                </div>
+                <div class="sidebar">
+                    <p>This is the sidebar. As discussed in the main content area, I have no content for this sidebar either.</p>
+                </div>
+            </div>
+            
+            <h2>Secret Button</h2>
+            <button id="toggle-button">Reveal Secret</button>
+            <p id="secret-message" style="display: none; color: darkgreen;">Only fools believe in secret buttons</p>
+            
+            <h2>Articles</h2>
+            <p>Aidan has yet to publish anything of note. Hopefully he gets his shit together and starts writing more frequently.</p>
+            
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                <p><span id="char-count">0</span> characters</p>
+                <button type="submit">Send</button>
+            </form>
+
+            <h3>Live Preview</h3>
+            <p>Hello, <span id ="live-name">stranger</span>!</p>
+
+            <h2>Change Background Color</h2>
+            <select id="color-picker">
+                <option value="">Select a color</option>
+                <option value="aliceblue">Light Blue</option>
+                <option value="lightyellow">Light Yellow</option>
+                <option value="lavender">Lavender</option>
+                <option value="white">White</option>
+                <option value="orange">Orange</option>
+            </select>
+
+            <footer>Contact me at <a href="mailto:aidan.loggenberg@utexas.edu">aidan.loggenberg@utexas.edu</a></footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
